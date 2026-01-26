@@ -2,7 +2,7 @@
 
 Этот репозиторий содержит исходный код веб-приложения, разработанного в рамках хакатона HackNU.
 
-Активная ссылка (Live Demo): [https://hack-nu-rosy.vercel.app/](https://hack-nu-chi.vercel.app/)
+Активная ссылка (Live Demo): [https://hackathon-topaz-eight.vercel.app/](https://hackathon-topaz-eight.vercel.app/)
 
 Но для начала надо скачать json файл и запустить на n8n.
 
