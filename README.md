@@ -1,2 +1,1 @@
-# hackathon
-Hackathon Projects &amp; Solutions | AI, ML, Web Development
+Все проекты здесь — это путь от идеи до работающего MVP за 24–72 часа. Подробное описание каждого решения находится в README внутри соответствующей папки.
