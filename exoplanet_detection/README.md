@@ -47,6 +47,16 @@ The project pipeline is divided into the following key stages:
 
 ## Results
 
-  * The model achieves a high overall accuracy of \~98% on the test set.
-  * However, due to the severe imbalance, the metrics for the minority class (stars with exoplanets) are significantly lower. The recall for this class is 40%, meaning the model identifies 2 out of the 3 exoplanets in the test set.
-  * The Balanced Accuracy is \~69%, which more objectively reflects the model's performance on the imbalanced data.
+The test set contains 570 stars, of which only 5 have exoplanets.
+
+  * The model achieves a high overall accuracy of \~98% (0.9772) on the test set.
+  * However, due to the severe imbalance, the metrics for the minority class (stars with exoplanets) are significantly lower. The recall for this class is 40%, meaning the model identifies 2 out of the 5 exoplanets in the test set. Precision is 17%: of the 12 stars predicted to have an exoplanet, 2 actually do.
+  * The Balanced Accuracy is \~69% (0.6912), which more objectively reflects the model's performance on the imbalanced data.
+  * The ROC AUC score is \~0.57, only slightly above random guessing (0.5), so the model's ability to separate the two classes is still weak.
+
+Confusion matrix on the test set:
+
+|                         | Predicted: No Exoplanet | Predicted: Exoplanet |
+|-------------------------|------------------------:|---------------------:|
+| **True: No Exoplanet**  | 555                     | 10                   |
+| **True: Exoplanet**     | 3                       | 2                    |
